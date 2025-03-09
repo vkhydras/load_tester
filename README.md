@@ -1,6 +1,6 @@
-# Advanced Terminal-Based Website Load Testing Tool
+# Website Load Testing Tool
 
-A powerful, modular, and extensible load testing tool for websites and web services. Run comprehensive load tests directly from your terminal without requiring a web browser or complex infrastructure.
+A load testing tool for websites and web services. Run comprehensive load tests directly from your terminal without requiring a web browser or complex infrastructure.
 
 ## Features
 
@@ -215,7 +215,3 @@ The modular architecture makes it easy to extend:
 - Python 3.7+
 - aiohttp
 - jsonpath-ng (for JSON validation)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
