@@ -10,8 +10,8 @@ import logging
 from typing import Dict, Any, List, Optional
 
 from .base import BaseScenario
-from config.settings import LoadTestConfig
-from protocols.base import BaseProtocol
+from load_tester.config.settings import LoadTestConfig
+from load_tester.protocols.base import BaseProtocol
 
 logger = logging.getLogger('load_tester')
 

@@ -10,8 +10,8 @@ import signal
 import logging
 from typing import Dict, List, Any, Optional, Callable
 
-from config.settings import LoadTestConfig
-from core.metrics import MetricsCollector
+from load_tester.config.settings import LoadTestConfig
+from load_tester.core.metrics import MetricsCollector
 
 logger = logging.getLogger("load_tester")
 

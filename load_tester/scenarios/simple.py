@@ -12,8 +12,8 @@ from .base import BaseScenario
 # from scenarios.base import BaseScenario
 
 # These imports should also be relative or package-based
-from config.settings import LoadTestConfig
-from protocols.base import BaseProtocol
+from load_tester.config.settings import LoadTestConfig
+from load_tester.protocols.base import BaseProtocol
 
 
 class SimpleScenario(BaseScenario):

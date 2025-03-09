@@ -8,8 +8,8 @@ import abc
 import random
 from typing import Dict, List, Any, Optional
 
-from config.settings import LoadTestConfig
-from protocols.base import BaseProtocol
+from load_tester.config.settings import LoadTestConfig
+from load_tester.protocols.base import BaseProtocol
 
 
 class BaseScenario(abc.ABC):

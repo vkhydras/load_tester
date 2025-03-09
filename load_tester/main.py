@@ -12,17 +12,17 @@ import argparse
 from typing import Dict, Any, List, Optional
 
 # Update these imports based on your actual file structure
-from config.settings import LoadTestConfig
-from core.load_tester import LoadTester
-from protocols.http import HttpProtocol
-from protocols.websocket import WebSocketProtocol
-from scenarios.simple import SimpleScenario
-from scenarios.workflow import WorkflowScenario
-from reporters.console import ConsoleReporter
-from reporters.csv import CsvReporter
-from reporters.json import JsonReporter
-from reporters.html import HtmlReporter
-from utils.logger import setup_logging
+from load_tester.config.settings import LoadTestConfig
+from load_tester.core.load_tester import LoadTester
+from load_tester.protocols.http import HttpProtocol
+from load_tester.protocols.websocket import WebSocketProtocol
+from load_tester.scenarios.simple import SimpleScenario
+from load_tester.scenarios.workflow import WorkflowScenario
+from load_tester.reporters.console import ConsoleReporter
+from load_tester.reporters.csv import CsvReporter
+from load_tester.reporters.json import JsonReporter
+from load_tester.reporters.html import HtmlReporter
+from load_tester.utils.logger import setup_logging
 
 
 def parse_arguments() -> argparse.Namespace:

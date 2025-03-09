@@ -9,8 +9,8 @@ import os
 import time
 from typing import Dict, Any, List
 
-from reporters.base import BaseReporter
-from config.settings import LoadTestConfig
+from load_tester.reporters.base import BaseReporter
+from load_tester.config.settings import LoadTestConfig
 
 
 class CsvReporter(BaseReporter):

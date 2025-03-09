@@ -10,8 +10,8 @@ import json
 from typing import Dict, Any, List
 from datetime import datetime
 
-from reporters.base import BaseReporter
-from config.settings import LoadTestConfig
+from load_tester.reporters.base import BaseReporter
+from load_tester.config.settings import LoadTestConfig
 
 
 class HtmlReporter(BaseReporter):

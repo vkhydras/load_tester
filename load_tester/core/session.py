@@ -10,7 +10,7 @@ import time
 import random
 from typing import Dict, Any, Optional
 
-from config.settings import LoadTestConfig
+from load_tester.config.settings import LoadTestConfig
 
 logger = logging.getLogger('load_tester')
 

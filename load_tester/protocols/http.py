@@ -14,8 +14,8 @@ import asyncio
 from typing import Dict, List, Any, Optional, Tuple
 from urllib.parse import urlparse, urljoin
 
-from protocols.base import BaseProtocol
-from config.settings import LoadTestConfig
+from load_tester.protocols.base import BaseProtocol
+from load_tester.config.settings import LoadTestConfig
 
 logger = logging.getLogger("load_tester")
 

@@ -7,7 +7,7 @@ This module defines the base class for all protocol implementations.
 import abc
 from typing import Dict, Any, Optional
 
-from config.settings import LoadTestConfig
+from load_tester.config.settings import LoadTestConfig
 
 
 class BaseProtocol(abc.ABC):

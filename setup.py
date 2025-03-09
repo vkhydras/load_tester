@@ -8,15 +8,15 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="load-tester",
+    name="load-tester",  # Hyphenated package name (for pip)
     version="1.0.0",
     description="A terminal-based website load testing tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Your Name",
     author_email="victorkimaru8@example.com",
-    url="hhttps://github.com/vkhydras/load_tester.git",
-    packages=find_packages(),
+    url="hhttps://github.com/vkhydras/web_load_tester.git",
+    packages=find_packages(),  
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -40,4 +40,8 @@ setup(
             "load-tester=load_tester.main:main",
         ],
     },
+    package_data={
+        "load_tester": ["**/*.py"],
+    },
+    include_package_data=True,
 )

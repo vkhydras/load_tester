@@ -10,7 +10,7 @@ import json
 from typing import List, Dict, Any, Optional, Tuple, Union
 from urllib.parse import urlparse
 
-from config.settings import LoadTestConfig
+from load_tester.config.settings import LoadTestConfig
 
 
 def validate_url(url: str) -> Tuple[bool, Optional[str]]:

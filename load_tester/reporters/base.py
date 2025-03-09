@@ -7,7 +7,7 @@ This module defines the base class for all reporter implementations.
 import abc
 from typing import Dict, Any
 
-from config.settings import LoadTestConfig
+from load_tester.config.settings import LoadTestConfig
 
 
 class BaseReporter(abc.ABC):
