@@ -19,7 +19,7 @@ A powerful, modular, and extensible load testing tool for websites and web servi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/load-tester.git
+git clone https://github.com/vkhydras/load_tester.git
 cd load-tester
 
 # Install dependencies

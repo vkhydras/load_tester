@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
 """
 Setup script for the load-tester package.
 """
 
 from setuptools import setup, find_packages
 
-# Read the long description from README.md
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
@@ -16,8 +14,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/load-tester",
+    author_email="victorkimaru8@example.com",
+    url="hhttps://github.com/vkhydras/load_tester.git",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
